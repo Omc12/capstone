@@ -16,7 +16,7 @@ nav {
     width: 100%;
     height: 10%;
     position: fixed;
-    z-index: 2;
+    z-index: 12;
     top: 0px;
     left: 0px;
     border-bottom: rgb(147, 147, 147) 1px solid;
@@ -51,6 +51,10 @@ nav {
     margin-left: 0.5vw;
     cursor: pointer;
     transition: all 0.3s linear;
+    font-family: "Cutive", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal
 }
 
 .nav-buts:hover {
@@ -67,10 +71,11 @@ nav {
 }
 
 #sec-1-h1 {
-    font-size: 15vh;
+    font-size: 14vh;
     letter-spacing: -5px;
+    margin-top: 20vh;
     text-align: center;
-    font-family: "Rubik", sans-serif;
+    font-family: "Cutive", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal
@@ -141,7 +146,7 @@ nav {
     font-size: 1.7vh;
     letter-spacing: 0px;
     text-align: left;
-    font-family: "Rubik", sans-serif;
+    font-family: "Kumbh Sans", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -153,7 +158,7 @@ nav {
     font-size: 1.3vh;
     letter-spacing: 0px;
     text-align: left;
-    font-family: "Rubik", sans-serif;
+    font-family: "Kumbh Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
@@ -280,7 +285,7 @@ nav {
     font-size: 6vh;
     letter-spacing: 0px;
     text-align: center;
-    font-family: "Rubik", sans-serif;
+    font-family: "Cutive", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -316,7 +321,7 @@ nav {
 #form-h1 {
     text-align: center;
     font-size: 4vh;
-    font-family: "Rubik", sans-serif;
+    font-family: "Cutive", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -340,7 +345,7 @@ nav {
 #sec-4-submit {
     font-size: 1.2vh;
     text-align: center;
-    font-family: "Rubik", sans-serif;
+    font-family: "Kumbh Sans", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -359,7 +364,7 @@ nav {
 #skip {
     font-size: 1.2vh;
     text-align: center;
-    font-family: "Rubik", sans-serif;
+    font-family: "Kumbh Sans", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
@@ -380,7 +385,7 @@ nav {
     bottom: 2vh;
     left: 3vw;
     font-size: 4vh;
-    font-family: "Rubik", sans-serif;
+    font-family: "Cutive", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -388,7 +393,7 @@ nav {
 
 #follow {
     font-size: 2vh;
-    font-family: "Rubik", sans-serif;
+    font-family: "Kumbh Sans", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -419,7 +424,7 @@ nav {
         width: 100%;
         height: 15vh;
         position: fixed;
-        z-index: 2;
+        z-index: 12;
         top: 0px;
         left: 0px;
         border-bottom: rgb(147, 147, 147) 1px solid;
@@ -428,7 +433,6 @@ nav {
     #nav-logo {
         font-size: 4vh;
         letter-spacing: 0px;
-        font-family: "Syne", sans-serif;
         font-optical-sizing: auto;
         font-weight: 800;
         font-style: extrabold;
@@ -449,7 +453,7 @@ nav {
     
     .nav-buts {
         position: relative;
-        font-size: 2vh;
+        font-size: 1.5vh;
         border: none;
         background-color: transparent;
         margin-left: 0.5vw;
@@ -468,7 +472,6 @@ nav {
         font-size: 8vh;
         letter-spacing: -2px;
         text-align: center;
-        font-family: "Rubik", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
@@ -534,7 +537,6 @@ nav {
         font-size: 1.7vh;
         letter-spacing: 0px;
         text-align: left;
-        font-family: "Rubik", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
@@ -546,7 +548,6 @@ nav {
         font-size: 1.3vh;
         letter-spacing: 0px;
         text-align: left;
-        font-family: "Rubik", sans-serif;
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
@@ -673,10 +674,9 @@ nav {
     }
     
     #sec-3-about-h1 {
-        font-size: 4vh;
-        letter-spacing: 0px;
+        font-size: 3vh;
+        letter-spacing: 1px;
         text-align: center;
-        font-family: "Rubik", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
@@ -711,8 +711,7 @@ nav {
     
     #form-h1 {
         text-align: center;
-        font-size: 4vh;
-        font-family: "Rubik", sans-serif;
+        font-size: 3vh;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
@@ -736,7 +735,6 @@ nav {
     #sec-4-submit {
         font-size: 2vh;
         text-align: center;
-        font-family: "Rubik", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
@@ -754,7 +752,6 @@ nav {
     #skip {
         font-size: 2vh;
         text-align: center;
-        font-family: "Rubik", sans-serif;
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
@@ -775,7 +772,6 @@ nav {
         left: 50%;
         transform: translate(-50%);
         font-size: 3vh;
-        font-family: "Rubik", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
@@ -785,7 +781,6 @@ nav {
     
     #follow {
         font-size: 3vh;
-        font-family: "Rubik", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
